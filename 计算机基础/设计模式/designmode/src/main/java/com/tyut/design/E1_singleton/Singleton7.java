@@ -3,7 +3,7 @@ package com.tyut.design.E1_singleton;
 /**
  * @version v1.0
  * @author OldGj 2024/10/22
- * @apiNote 单例模式-枚举实现-推荐使用
+ * @apiNote 单例模式-枚举实现-推荐使用-饿汉式
  */
 public class Singleton7 {
 
