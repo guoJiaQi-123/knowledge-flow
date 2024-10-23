@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="69e61f11-d4b3-47d8-a3e8-80a6d115b3ff" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="69e61f11-d4b3-47d8-a3e8-80a6d115b3ff" name="更改" comment="单例模式懒汉式-解决反序列化破坏单例模式的问题" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,6 +34,9 @@
   &quot;associatedIndex&quot;: 8
 }</component>
   <component name="ProjectId" id="2nkPP47koxtvUrIE2WTz0FpZhKs" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="autoscrollToSource" value="true" />
     <option name="openDirectoriesWithSingleClick" value="true" />
@@ -54,7 +55,8 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+    "vue.rearranger.settings.migration": "true",
+    "应用程序.Singleton7.executor": "Run"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
@@ -67,10 +69,60 @@
       <updated>1699928824701</updated>
       <workItem from="1729514076156" duration="204000" />
       <workItem from="1729514303654" duration="1661000" />
+      <workItem from="1729609226889" duration="4687000" />
     </task>
+    <task id="LOCAL-00001" summary="单例模式饿汉式">
+      <option name="closed" value="true" />
+      <created>1729611162269</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1729611162269</updated>
+    </task>
+    <task id="LOCAL-00002" summary="单例模式懒汉式">
+      <option name="closed" value="true" />
+      <created>1729611171523</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1729611171523</updated>
+    </task>
+    <task id="LOCAL-00003" summary="单例模式懒汉式-静态内部类实现">
+      <option name="closed" value="true" />
+      <created>1729611789138</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1729611789138</updated>
+    </task>
+    <task id="LOCAL-00004" summary="单例模式懒汉式-枚举实现">
+      <option name="closed" value="true" />
+      <created>1729612273600</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1729612273600</updated>
+    </task>
+    <task id="LOCAL-00005" summary="单例模式懒汉式-解决反序列化破坏单例模式的问题">
+      <option name="closed" value="true" />
+      <created>1729613434896</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1729613434896</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="单例模式饿汉式" />
+    <MESSAGE value="单例模式懒汉式" />
+    <MESSAGE value="单例模式懒汉式-静态内部类实现" />
+    <MESSAGE value="单例模式懒汉式-枚举实现" />
+    <MESSAGE value="单例模式懒汉式-解决反序列化破坏单例模式的问题" />
+    <option name="LAST_COMMIT_MESSAGE" value="单例模式懒汉式-解决反序列化破坏单例模式的问题" />
   </component>
 </project>
