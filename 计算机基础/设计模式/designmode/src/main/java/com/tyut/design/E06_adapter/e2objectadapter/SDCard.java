@@ -1,4 +1,4 @@
-package com.tyut.design.E06adapter.e2objectadapter;
+package com.tyut.design.E06_adapter.e2objectadapter;
 
 //SD卡的接口
 public interface SDCard {

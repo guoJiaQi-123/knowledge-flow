@@ -4,7 +4,36 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="69e61f11-d4b3-47d8-a3e8-80a6d115b3ff" name="更改" comment="单例模式懒汉式-解决反序列化破坏单例模式的问题" />
+    <list default="true" id="69e61f11-d4b3-47d8-a3e8-80a6d115b3ff" name="更改" comment="「新增」cglib动态代理模式">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tyut/design/E07_decorator/Bacon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tyut/design/E07_decorator/Egg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tyut/design/E07_decorator/FastFood.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tyut/design/E07_decorator/FriedNoodles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tyut/design/E07_decorator/FriedRice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tyut/design/E07_decorator/Garnish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tyut/design/E07_decorator/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tyut/design/E08_bridge/AVIFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tyut/design/E08_bridge/Linux.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tyut/design/E08_bridge/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tyut/design/E08_bridge/OperatingSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tyut/design/E08_bridge/RMVBFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tyut/design/E08_bridge/VideoFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tyut/design/E08_bridge/Windows.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tyut/design/E06adapter/e1classadapter/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tyut/design/E06_adapter/e1classadapter/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tyut/design/E06adapter/e1classadapter/Computer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tyut/design/E06_adapter/e1classadapter/Computer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tyut/design/E06adapter/e1classadapter/SDAdapterTF.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tyut/design/E06_adapter/e1classadapter/SDAdapterTF.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tyut/design/E06adapter/e1classadapter/SDCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tyut/design/E06_adapter/e1classadapter/SDCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tyut/design/E06adapter/e1classadapter/SDCardImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tyut/design/E06_adapter/e1classadapter/SDCardImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tyut/design/E06adapter/e1classadapter/TFCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tyut/design/E06_adapter/e1classadapter/TFCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tyut/design/E06adapter/e1classadapter/TFCardImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tyut/design/E06_adapter/e1classadapter/TFCardImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tyut/design/E06adapter/e2objectadapter/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tyut/design/E06_adapter/e2objectadapter/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tyut/design/E06adapter/e2objectadapter/Computer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tyut/design/E06_adapter/e2objectadapter/Computer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tyut/design/E06adapter/e2objectadapter/SDAdapterTF.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tyut/design/E06_adapter/e2objectadapter/SDAdapterTF.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tyut/design/E06adapter/e2objectadapter/SDCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tyut/design/E06_adapter/e2objectadapter/SDCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tyut/design/E06adapter/e2objectadapter/SDCardImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tyut/design/E06_adapter/e2objectadapter/SDCardImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tyut/design/E06adapter/e2objectadapter/TFCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tyut/design/E06_adapter/e2objectadapter/TFCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tyut/design/E06adapter/e2objectadapter/TFCardImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tyut/design/E06_adapter/e2objectadapter/TFCardImpl.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +42,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -46,19 +76,126 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Main.executor": "Run",
+    "Application.com.tyut.design.E02_factory.e3_absfactory.Main.executor": "Run",
+    "Application.com.tyut.design.E02_factory.e4_configfactory.Main.executor": "Debug",
+    "Application.com.tyut.design.E03_prototype.deepclone.Main.executor": "Run",
+    "Application.com.tyut.design.E03_prototype.shallowclone.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/HX/Desktop/GitHub知识流/knowledge-flow/计算机基础/设计模式/designmode/src/main/java/com/tyut/design/E06adapter/e2objectadapter",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "project.structure.last.edited": "项目",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "configurable.group.appearance",
     "vue.rearranger.settings.migration": "true",
-    "应用程序.Singleton7.executor": "Run"
+    "应用程序.Client.executor": "Run",
+    "应用程序.Main.executor": "Run",
+    "应用程序.Singleton7.executor": "Run",
+    "应用程序.com.tyut.design.E02_factory.e2_factorymethod.Main.executor": "Run",
+    "应用程序.com.tyut.design.E04_builder.demo2.Main.executor": "Run",
+    "应用程序.com.tyut.design.E05_proxy.E1staticproxy.Main.executor": "Run",
+    "应用程序.com.tyut.design.E05_proxy.E2jdkdynamicproxy.Main.executor": "Run",
+    "应用程序.com.tyut.design.E05_proxy.E3cglibproxy.Main.executor": "Run",
+    "应用程序.com.tyut.design.E08_bridge.Main.executor": "Run"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\HX\Desktop\GitHub知识流\knowledge-flow\计算机基础\设计模式\designmode\src\main\java\com\tyut\design\E06adapter\e2objectadapter" />
+      <recent name="C:\Users\HX\Desktop\GitHub知识流\knowledge-flow\计算机基础\设计模式\designmode\src\main\java\com\tyut\design\E02_factory\e4_configfactory" />
+      <recent name="C:\Users\HX\Desktop\GitHub知识流\knowledge-flow\计算机基础\设计模式\designmode\src\main\java\com\tyut\design\E02_factory\e3_absfactory" />
+      <recent name="C:\Users\HX\Desktop\GitHub知识流\knowledge-flow\计算机基础\设计模式\designmode\src\main\java\com\tyut\design\E02_factory\e2_factorymethod" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.tyut.design.E08_bridge" />
+      <recent name="com.tyut.design.E07_Decorator" />
+      <recent name="com.tyut.design.E05_proxy.E3cglibproxy" />
+      <recent name="com.tyut.design.E05_proxy.E2jdkdynamicproxy" />
+    </key>
+  </component>
+  <component name="RunManager" selected="应用程序.com.tyut.design.E08_bridge.Main">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tyut.design.E06_adapter.e2objectadapter.Client" />
+      <module name="designmode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tyut.design.E06_adapter.e2objectadapter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tyut.design.E07_decorator.Main" />
+      <module name="designmode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tyut.design.E07_decorator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.tyut.design.E05_proxy.E2jdkdynamicproxy.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tyut.design.E05_proxy.E2jdkdynamicproxy.Main" />
+      <module name="designmode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tyut.design.E05_proxy.E2jdkdynamicproxy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.tyut.design.E05_proxy.E3cglibproxy.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tyut.design.E05_proxy.E3cglibproxy.Main" />
+      <module name="designmode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tyut.design.E05_proxy.E3cglibproxy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.tyut.design.E08_bridge.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tyut.design.E08_bridge.Main" />
+      <module name="designmode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tyut.design.E08_bridge.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="应用程序.com.tyut.design.E08_bridge.Main" />
+        <item itemvalue="应用程序.Main" />
+        <item itemvalue="应用程序.Client" />
+        <item itemvalue="应用程序.com.tyut.design.E05_proxy.E2jdkdynamicproxy.Main" />
+        <item itemvalue="应用程序.com.tyut.design.E05_proxy.E3cglibproxy.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="默认任务">
@@ -70,6 +207,10 @@
       <workItem from="1729514076156" duration="204000" />
       <workItem from="1729514303654" duration="1661000" />
       <workItem from="1729609226889" duration="4687000" />
+      <workItem from="1730286082749" duration="10949000" />
+      <workItem from="1730373501939" duration="7274000" />
+      <workItem from="1730387814085" duration="199000" />
+      <workItem from="1730459821022" duration="4932000" />
     </task>
     <task id="LOCAL-00001" summary="单例模式饿汉式">
       <option name="closed" value="true" />
@@ -111,7 +252,71 @@
       <option name="project" value="LOCAL" />
       <updated>1729613434896</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="工厂模式">
+      <option name="closed" value="true" />
+      <created>1730295652571</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1730295652571</updated>
+    </task>
+    <task id="LOCAL-00007" summary="原型模式">
+      <option name="closed" value="true" />
+      <created>1730295667049</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1730295667049</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Main方法工厂模式">
+      <option name="closed" value="true" />
+      <created>1730295681307</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1730295681307</updated>
+    </task>
+    <task id="LOCAL-00009" summary="建造者模式">
+      <option name="closed" value="true" />
+      <created>1730301322728</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1730301322728</updated>
+    </task>
+    <task id="LOCAL-00010" summary="「新增」适配器模式">
+      <option name="closed" value="true" />
+      <created>1730387873040</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1730387873040</updated>
+    </task>
+    <task id="LOCAL-00011" summary="「新增」">
+      <option name="closed" value="true" />
+      <created>1730387896901</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1730387896901</updated>
+    </task>
+    <task id="LOCAL-00012" summary="「新增」jdk动态代理模式">
+      <option name="closed" value="true" />
+      <created>1730387913907</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1730387913907</updated>
+    </task>
+    <task id="LOCAL-00013" summary="「新增」cglib动态代理模式">
+      <option name="closed" value="true" />
+      <created>1730387922700</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1730387922700</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -123,6 +328,14 @@
     <MESSAGE value="单例模式懒汉式-静态内部类实现" />
     <MESSAGE value="单例模式懒汉式-枚举实现" />
     <MESSAGE value="单例模式懒汉式-解决反序列化破坏单例模式的问题" />
-    <option name="LAST_COMMIT_MESSAGE" value="单例模式懒汉式-解决反序列化破坏单例模式的问题" />
+    <MESSAGE value="工厂模式" />
+    <MESSAGE value="原型模式" />
+    <MESSAGE value="Main方法工厂模式" />
+    <MESSAGE value="建造者模式" />
+    <MESSAGE value="「新增」适配器模式" />
+    <MESSAGE value="「新增」静态代理模式" />
+    <MESSAGE value="「新增」jdk动态代理模式" />
+    <MESSAGE value="「新增」cglib动态代理模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="「新增」cglib动态代理模式" />
   </component>
 </project>

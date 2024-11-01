@@ -1,4 +1,4 @@
-package com.tyut.design.E06adapter.e1classadapter;
+package com.tyut.design.E06_adapter.e1classadapter;
 
 //TF卡接口
 public interface TFCard {

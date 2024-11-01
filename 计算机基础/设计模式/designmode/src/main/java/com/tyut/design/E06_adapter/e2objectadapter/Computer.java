@@ -1,4 +1,4 @@
-package com.tyut.design.E06adapter.e1classadapter;
+package com.tyut.design.E06_adapter.e2objectadapter;
 
 //电脑类
 public class Computer {

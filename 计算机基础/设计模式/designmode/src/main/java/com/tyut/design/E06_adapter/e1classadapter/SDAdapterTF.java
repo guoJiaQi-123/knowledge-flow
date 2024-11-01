@@ -1,4 +1,4 @@
-package com.tyut.design.E06adapter.e1classadapter;
+package com.tyut.design.E06_adapter.e1classadapter;
 
 //定义适配器类（SD兼容TF）
 public class SDAdapterTF extends TFCardImpl implements SDCard {

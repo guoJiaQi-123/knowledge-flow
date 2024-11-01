@@ -1,4 +1,4 @@
-package com.tyut.design.E06adapter.e2objectadapter;
+package com.tyut.design.E06_adapter.e2objectadapter;
 
 //TF卡实现类
 public class TFCardImpl implements TFCard {

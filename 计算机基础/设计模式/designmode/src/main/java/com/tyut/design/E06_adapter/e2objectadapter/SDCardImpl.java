@@ -1,4 +1,4 @@
-package com.tyut.design.E06adapter.e1classadapter;
+package com.tyut.design.E06_adapter.e2objectadapter;
 
 //SD卡实现类
 public class SDCardImpl implements SDCard {

@@ -1,4 +1,4 @@
-package com.tyut.design.E06adapter.e1classadapter;
+package com.tyut.design.E06_adapter.e2objectadapter;
 
 //测试类
 public class Client {
@@ -9,7 +9,7 @@ public class Client {
 
         System.out.println("------------");
 
-        SDAdapterTF adapter = new SDAdapterTF();
+        SDAdapterTF adapter = new SDAdapterTF(new TFCardImpl());
         System.out.println(computer.readSD(adapter));
     }
 }
