@@ -2,16 +2,22 @@ package com.tyut.minio01;
 
 import com.tyut.minio01.service.MinIOService;
 import io.minio.*;
+import io.minio.errors.*;
 import io.minio.http.Method;
 import io.minio.messages.Bucket;
+import io.minio.messages.Item;
 import jakarta.annotation.Resource;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 import java.io.File;
 import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
 import java.net.URI;
 import java.nio.file.Path;
+import java.security.InvalidKeyException;
+import java.security.NoSuchAlgorithmException;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
@@ -72,7 +78,7 @@ class Minio01ApplicationTests {
         File file = new File("C:\\Users\\HX\\Desktop\\郭家旗\\图片\\basketall.png");
         // 用于上传文件到指定的存储桶；
         ObjectWriteResponse objectWriteResponse = minioClient.putObject(PutObjectArgs.builder()
-                .bucket("files")
+                .bucket("files2")
                 .object("test.png")
                 .stream(new FileInputStream(file), file.length(), -1)
                 .build());
@@ -80,7 +86,7 @@ class Minio01ApplicationTests {
 
         // 直接指定要上传的文件路径
         ObjectWriteResponse objectWriteResponse1 = minioClient.uploadObject(UploadObjectArgs.builder()
-                .bucket("files")
+                .bucket("files2")
                 .object("test2.jpg")
                 .filename("C:\\Users\\HX\\Desktop\\郭家旗\\侯子.png")
                 .build());
@@ -107,5 +113,56 @@ class Minio01ApplicationTests {
                 .method(Method.GET) // GET方法
                 .build());
         System.out.println(url);
+    }
+
+
+    @Test
+    void test08() throws Exception {
+        String bucketName = "files2";
+        //生成桶
+        minioClient.makeBucket(MakeBucketArgs.builder()
+                .bucket(bucketName)
+                .build());
+        String policyJsonString = "{\"Version\":\"2012-10-17\",\"Statement\":[{\"Sid\":\"PublicRead\",\"Effect\":\"Allow\",\"Principal\":{\"AWS\":\"*\"},\"Action\":[\"s3:GetObject\"],\"Resource\":[\"arn:aws:s3:::" + bucketName + "/*\"]}]}";
+        // 创建存储桶的时候，设置该存储桶里面的文件的访问策略，允许公开的读
+        minioClient.setBucketPolicy(SetBucketPolicyArgs.builder()
+                .bucket(bucketName)
+                .config(policyJsonString)
+                .build());
+    }
+
+    @Test
+    void test09() throws Exception {
+        // 用于从指定的存储桶中下载文件
+        GetObjectResponse minioClientObject = minioClient.getObject(GetObjectArgs.builder()
+                .bucket("files")
+                .object("test.png")
+                .build());
+        System.out.println(minioClientObject.transferTo(new FileOutputStream("D:\\Edge文件收藏\\123.png")));
+    }
+
+    @Test
+    void test10() throws Exception {
+        // 用于列出指定存储桶中的所有对象（文件）
+        Iterable<Result<Item>> listObjects = minioClient.listObjects(ListObjectsArgs.builder()
+                .bucket("files")
+                .build());
+        listObjects.forEach(r -> {
+            try {
+                Item item = r.get();
+                System.out.println(item.objectName());
+            } catch (Exception e) {
+                throw new RuntimeException(e);
+            }
+        });
+    }
+
+    @Test
+    void test11() throws Exception {
+        // 用于删除指定存储桶中的对象，需要指定存储桶名称和对象键
+        minioClient.removeObject(RemoveObjectArgs.builder()
+                .bucket("files")
+                .object("test.png")
+                .build());
     }
 }
