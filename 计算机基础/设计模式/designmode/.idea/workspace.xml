@@ -4,36 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="69e61f11-d4b3-47d8-a3e8-80a6d115b3ff" name="更改" comment="「新增」cglib动态代理模式">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tyut/design/E07_decorator/Bacon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tyut/design/E07_decorator/Egg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tyut/design/E07_decorator/FastFood.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tyut/design/E07_decorator/FriedNoodles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tyut/design/E07_decorator/FriedRice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tyut/design/E07_decorator/Garnish.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tyut/design/E07_decorator/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tyut/design/E08_bridge/AVIFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tyut/design/E08_bridge/Linux.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tyut/design/E08_bridge/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tyut/design/E08_bridge/OperatingSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tyut/design/E08_bridge/RMVBFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tyut/design/E08_bridge/VideoFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tyut/design/E08_bridge/Windows.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tyut/design/E06adapter/e1classadapter/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tyut/design/E06_adapter/e1classadapter/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tyut/design/E06adapter/e1classadapter/Computer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tyut/design/E06_adapter/e1classadapter/Computer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tyut/design/E06adapter/e1classadapter/SDAdapterTF.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tyut/design/E06_adapter/e1classadapter/SDAdapterTF.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tyut/design/E06adapter/e1classadapter/SDCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tyut/design/E06_adapter/e1classadapter/SDCard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tyut/design/E06adapter/e1classadapter/SDCardImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tyut/design/E06_adapter/e1classadapter/SDCardImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tyut/design/E06adapter/e1classadapter/TFCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tyut/design/E06_adapter/e1classadapter/TFCard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tyut/design/E06adapter/e1classadapter/TFCardImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tyut/design/E06_adapter/e1classadapter/TFCardImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tyut/design/E06adapter/e2objectadapter/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tyut/design/E06_adapter/e2objectadapter/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tyut/design/E06adapter/e2objectadapter/Computer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tyut/design/E06_adapter/e2objectadapter/Computer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tyut/design/E06adapter/e2objectadapter/SDAdapterTF.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tyut/design/E06_adapter/e2objectadapter/SDAdapterTF.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tyut/design/E06adapter/e2objectadapter/SDCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tyut/design/E06_adapter/e2objectadapter/SDCard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tyut/design/E06adapter/e2objectadapter/SDCardImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tyut/design/E06_adapter/e2objectadapter/SDCardImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tyut/design/E06adapter/e2objectadapter/TFCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tyut/design/E06_adapter/e2objectadapter/TFCard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tyut/design/E06adapter/e2objectadapter/TFCardImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tyut/design/E06_adapter/e2objectadapter/TFCardImpl.java" afterDir="false" />
-    </list>
+    <list default="true" id="69e61f11-d4b3-47d8-a3e8-80a6d115b3ff" name="更改" comment="「新增」外观（门面）模式" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -74,38 +45,39 @@
     <option name="showLibraryContents" value="true" />
     <option name="showScratchesAndConsoles" value="false" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "Application.com.tyut.design.E02_factory.e3_absfactory.Main.executor": "Run",
-    "Application.com.tyut.design.E02_factory.e4_configfactory.Main.executor": "Debug",
-    "Application.com.tyut.design.E03_prototype.deepclone.Main.executor": "Run",
-    "Application.com.tyut.design.E03_prototype.shallowclone.Main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/HX/Desktop/GitHub知识流/knowledge-flow/计算机基础/设计模式/designmode/src/main/java/com/tyut/design/E06adapter/e2objectadapter",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "项目",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "configurable.group.appearance",
-    "vue.rearranger.settings.migration": "true",
-    "应用程序.Client.executor": "Run",
-    "应用程序.Main.executor": "Run",
-    "应用程序.Singleton7.executor": "Run",
-    "应用程序.com.tyut.design.E02_factory.e2_factorymethod.Main.executor": "Run",
-    "应用程序.com.tyut.design.E04_builder.demo2.Main.executor": "Run",
-    "应用程序.com.tyut.design.E05_proxy.E1staticproxy.Main.executor": "Run",
-    "应用程序.com.tyut.design.E05_proxy.E2jdkdynamicproxy.Main.executor": "Run",
-    "应用程序.com.tyut.design.E05_proxy.E3cglibproxy.Main.executor": "Run",
-    "应用程序.com.tyut.design.E08_bridge.Main.executor": "Run"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.tyut.design.E02_factory.e3_absfactory.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.tyut.design.E02_factory.e4_configfactory.Main.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.com.tyut.design.E03_prototype.deepclone.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.tyut.design.E03_prototype.shallowclone.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/HX/Desktop/GitHub知识流/knowledge-flow/计算机基础/设计模式/designmode/src/main/java/com/tyut/design/E06adapter/e2objectadapter&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;项目&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.appearance&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,
+    &quot;应用程序.Client.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.Main.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.Singleton7.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.com.tyut.design.E02_factory.e2_factorymethod.Main.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.com.tyut.design.E04_builder.demo2.Main.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.com.tyut.design.E05_proxy.E1staticproxy.Main.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.com.tyut.design.E05_proxy.E2jdkdynamicproxy.Main.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.com.tyut.design.E05_proxy.E3cglibproxy.Main.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.com.tyut.design.E08_bridge.Main.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.com.tyut.design.E09facade.Main.executor&quot;: &quot;Run&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\HX\Desktop\GitHub知识流\knowledge-flow\计算机基础\设计模式\designmode\src\main\java\com\tyut\design\E06adapter\e2objectadapter" />
@@ -120,7 +92,7 @@
       <recent name="com.tyut.design.E05_proxy.E2jdkdynamicproxy" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.com.tyut.design.E08_bridge.Main">
+  <component name="RunManager" selected="应用程序.com.tyut.design.E09facade.Main">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.tyut.design.E06_adapter.e2objectadapter.Client" />
       <module name="designmode" />
@@ -160,19 +132,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.tyut.design.E05_proxy.E3cglibproxy.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tyut.design.E05_proxy.E3cglibproxy.Main" />
-      <module name="designmode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.tyut.design.E05_proxy.E3cglibproxy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="com.tyut.design.E08_bridge.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.tyut.design.E08_bridge.Main" />
       <module name="designmode" />
@@ -186,13 +145,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="com.tyut.design.E09facade.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tyut.design.E09facade.Main" />
+      <module name="designmode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tyut.design.E09facade.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.com.tyut.design.E09facade.Main" />
         <item itemvalue="应用程序.com.tyut.design.E08_bridge.Main" />
         <item itemvalue="应用程序.Main" />
         <item itemvalue="应用程序.Client" />
         <item itemvalue="应用程序.com.tyut.design.E05_proxy.E2jdkdynamicproxy.Main" />
-        <item itemvalue="应用程序.com.tyut.design.E05_proxy.E3cglibproxy.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -211,6 +183,8 @@
       <workItem from="1730373501939" duration="7274000" />
       <workItem from="1730387814085" duration="199000" />
       <workItem from="1730459821022" duration="4932000" />
+      <workItem from="1730549779847" duration="2528000" />
+      <workItem from="1730555171050" duration="5000" />
     </task>
     <task id="LOCAL-00001" summary="单例模式饿汉式">
       <option name="closed" value="true" />
@@ -316,7 +290,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730387922700</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="「新增」外观（门面）模式">
+      <option name="closed" value="true" />
+      <created>1730555148644</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1730555148644</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -336,6 +318,7 @@
     <MESSAGE value="「新增」静态代理模式" />
     <MESSAGE value="「新增」jdk动态代理模式" />
     <MESSAGE value="「新增」cglib动态代理模式" />
-    <option name="LAST_COMMIT_MESSAGE" value="「新增」cglib动态代理模式" />
+    <MESSAGE value="「新增」外观（门面）模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="「新增」外观（门面）模式" />
   </component>
 </project>
