@@ -1,4 +1,4 @@
-package com.tyut.design.E09facade;
+package com.tyut.design.E09_facade;
 
 /**
  * @version v1.0
