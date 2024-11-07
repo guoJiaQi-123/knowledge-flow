@@ -1,4 +1,4 @@
-package com.tyut.design.E11flyweight;
+package com.tyut.design.E11_flyweight;
 
 public abstract class AbstractBox {
     public abstract String getShape();
