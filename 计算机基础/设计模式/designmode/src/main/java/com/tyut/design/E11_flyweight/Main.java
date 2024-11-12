@@ -15,6 +15,6 @@ public class Main {
         O.display("红色");
         AbstractBox O2 = BoxFactory.getInstance().getShape("O");
         O2.display("紫色");
-        System.out.println("O和O2是否相同：" + (O == O2));
+        System.out.println("O和O2是否相同：" + (O == O2)); // ture
     }
 }
