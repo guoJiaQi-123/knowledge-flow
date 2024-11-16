@@ -29,8 +29,6 @@ class TwoStageTerminate {
         monitor = new Thread(() -> {
             while (true) {
                 Thread current = Thread.currentThread();
-//                boolean interrupted = current.isInterrupted(); // 不会清楚打断标记
-//                boolean interrupted = Thread.interrupted(); // 静态方法，会清楚打断标记
                 if (current.isInterrupted()) {
                     log.debug("处理后事");
                     break;
@@ -38,7 +36,7 @@ class TwoStageTerminate {
                 try {
                     Thread.sleep(1000);
                     log.debug("执行记录状态");
-                } catch (InterruptedException e) {
+                } catch (InterruptedException e) { // 如果在sleep期间被打断，会执行catch块中的代码
                     e.printStackTrace();
                     // 重新设置打断标志
                     current.interrupt();
