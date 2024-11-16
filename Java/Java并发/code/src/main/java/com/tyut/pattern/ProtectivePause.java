@@ -36,6 +36,7 @@ public class ProtectivePause {
             list.add(3);
             guardedObject.complete(list);
         }, "t2").start();
+
     }
 }
 
