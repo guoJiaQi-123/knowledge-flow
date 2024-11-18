@@ -6,7 +6,7 @@ import lombok.extern.slf4j.Slf4j;
 /**
  * @version v1.0
  * @author OldGj 2024/11/12
- * @apiNote test1
+ * @apiNote synchronized关键字是对象锁
  */
 @Slf4j(topic = "c.Test1")
 public class Test1 {
