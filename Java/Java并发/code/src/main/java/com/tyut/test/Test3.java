@@ -6,7 +6,7 @@ import lombok.extern.slf4j.Slf4j;
 /**
  * @version v1.0
  * @author OldGj 2024/11/16
- * @apiNote TODO(一句话给出该类描述)
+ * @apiNote wait/notifyAll
  */
 @Slf4j(topic = "c.Test3")
 public class Test3 {
