@@ -26,7 +26,7 @@ public class GuardedObject {
     }
 
     /*
-            带等待时间
+        带等待时间
      */
     public Object get(long timeout) {
         synchronized (lock) {
