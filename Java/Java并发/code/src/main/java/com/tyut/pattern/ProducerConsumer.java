@@ -18,22 +18,28 @@ public class ProducerConsumer {
         MessageQueue queue = new MessageQueue(2);
         for (int i = 0; i < 3; i++) {
             int id = i;
+            sleep(1);
             // 模拟三个生产者
             new Thread(() -> {
                 queue.put(new Message(id, "值" + id));
             }, "生产者" + i).start();
         }
 
+        // 模拟一个消费者
         new Thread(() -> {
             while (true) {
-                sleep(1);
+                sleep(2);
                 Message message = queue.take();
             }
         }, "消费者").start();
     }
 }
 
+/**
+ * 消息队列
+ */
 @Slf4j(topic = "c.MessageQueue")
+@SuppressWarnings("all")
 class MessageQueue {
     // 消息队列集合
     private LinkedList<Message> queue;
@@ -59,7 +65,7 @@ class MessageQueue {
             // 将消息加入队列尾部
             queue.addLast(message);
             log.debug("生产者生产了一个消息：{}", message);
-            queue.notifyAll();
+            queue.notifyAll(); // 唤醒消费者线程
         }
     }
 
@@ -76,12 +82,13 @@ class MessageQueue {
             }
             Message message = queue.removeFirst();
             log.debug("消费者已经消费了一个消息{}", message);
-            queue.notifyAll();
+            queue.notifyAll(); // 唤醒生产者线程
             return message;
         }
     }
 }
 
+@SuppressWarnings("all")
 class Message {
     private int id;
     private Object value;
