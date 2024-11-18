@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="15002343-b37a-49c3-8ed1-f995671f7c0b" name="更改" comment="「更新」享元模式细节注释">
+      <change beforePath="$PROJECT_DIR$/../../../Java/Java并发/code/src/main/java/com/tyut/test/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/Java并发/code/src/main/java/com/tyut/test/Test1.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="customMavenHome" value="D:/Program Files/Lenovo/apache-maven-3.8.3" />
+        <option name="localRepository" value="E:\repository" />
+        <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
+        <option name="userSettingsFile" value="D:\Program Files\Lenovo\apache-maven-3.8.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2oTPyPlXmCtGforVT0CgC7rhM8a" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="compactDirectories" value="true" />
+    <option name="openDirectoriesWithSingleClick" value="true" />
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showModules" value="false" />
+    <option name="showScratchesAndConsoles" value="false" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,
+    &quot;应用程序.Main.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.com.tyut.design.E11flyweight.Main.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.com.tyut.design.E13_strategy.Main.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.com.tyut.design.E14_command.Main.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.com.tyut.design.E15_responsibilityChain.Main.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.com.tyut.design.E17_observation.jdk.Main.executor&quot;: &quot;Run&quot;
+  }
+}</component>
+  <component name="RunManager" selected="应用程序.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tyut.design.E18_iterator.Main" />
+      <module name="designmode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tyut.design.E18_iterator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.tyut.design.E13_strategy.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tyut.design.E13_strategy.Main" />
+      <module name="designmode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tyut.design.E13_strategy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.tyut.design.E14_command.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tyut.design.E14_command.Main" />
+      <module name="designmode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tyut.design.E14_command.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.tyut.design.E15_responsibilityChain.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tyut.design.E15_responsibilityChain.Main" />
+      <module name="designmode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tyut.design.E15_responsibilityChain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.tyut.design.E17_observation.jdk.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tyut.design.E17_observation.jdk.Main" />
+      <module name="designmode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tyut.design.E17_observation.jdk.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="应用程序.Main" />
+        <item itemvalue="应用程序.com.tyut.design.E17_observation.jdk.Main" />
+        <item itemvalue="应用程序.com.tyut.design.E15_responsibilityChain.Main" />
+        <item itemvalue="应用程序.com.tyut.design.E14_command.Main" />
+        <item itemvalue="应用程序.com.tyut.design.E13_strategy.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="15002343-b37a-49c3-8ed1-f995671f7c0b" name="更改" comment="" />
+      <created>1699928824701</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1699928824701</updated>
+      <workItem from="1730890850195" duration="5001000" />
+      <workItem from="1730979807915" duration="1393000" />
+      <workItem from="1731075239766" duration="3094000" />
+      <workItem from="1731134303861" duration="4041000" />
+      <workItem from="1731207689936" duration="132000" />
+      <workItem from="1731226646136" duration="2854000" />
+      <workItem from="1731419917942" duration="1533000" />
+      <workItem from="1731421769898" duration="119000" />
+    </task>
+    <task id="LOCAL-00001" summary="「新增」享元模式相关代码">
+      <option name="closed" value="true" />
+      <created>1730895688588</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1730895688588</updated>
+    </task>
+    <task id="LOCAL-00002" summary="「xin」外观模式重命名">
+      <option name="closed" value="true" />
+      <created>1730895713205</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1730895713205</updated>
+    </task>
+    <task id="LOCAL-00003" summary="「新增」组合模式相关代码">
+      <option name="closed" value="true" />
+      <created>1730895728586</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1730895728586</updated>
+    </task>
+    <task id="LOCAL-00004" summary="「更新」享元模式相关代码">
+      <option name="closed" value="true" />
+      <created>1730985025615</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1730985025615</updated>
+    </task>
+    <task id="LOCAL-00005" summary="「新增」模板方法模式相关代码">
+      <option name="closed" value="true" />
+      <created>1731134343674</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1731134343674</updated>
+    </task>
+    <task id="LOCAL-00006" summary="「新增」策略模式相关代码">
+      <option name="closed" value="true" />
+      <created>1731134368471</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1731134368471</updated>
+    </task>
+    <task id="LOCAL-00007" summary="「修改」策略模式错误代码">
+      <option name="closed" value="true" />
+      <created>1731134394520</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1731134394520</updated>
+    </task>
+    <task id="LOCAL-00008" summary="「修改」策略模式代码注释">
+      <option name="closed" value="true" />
+      <created>1731150476884</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1731150476885</updated>
+    </task>
+    <task id="LOCAL-00009" summary="「新增」命令模式相关代码">
+      <option name="closed" value="true" />
+      <created>1731150497252</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1731150497252</updated>
+    </task>
+    <task id="LOCAL-00010" summary="「新增」责任链模式相关代码">
+      <option name="closed" value="true" />
+      <created>1731150516448</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1731150516448</updated>
+    </task>
+    <task id="LOCAL-00011" summary="「新增」状态模式相关代码">
+      <option name="closed" value="true" />
+      <created>1731227943801</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1731227943801</updated>
+    </task>
+    <task id="LOCAL-00012" summary="「新增」观察者模式jdk相关代码">
+      <option name="closed" value="true" />
+      <created>1731229477555</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1731229477555</updated>
+    </task>
+    <task id="LOCAL-00013" summary="「新增」观察者模式案例相关代码">
+      <option name="closed" value="true" />
+      <created>1731229486722</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1731229486722</updated>
+    </task>
+    <task id="LOCAL-00014" summary="「新增」迭代器模式案例相关代码">
+      <option name="closed" value="true" />
+      <created>1731421668069</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1731421668069</updated>
+    </task>
+    <task id="LOCAL-00015" summary="「更新」享元模式细节注释">
+      <option name="closed" value="true" />
+      <created>1731421881888</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1731421881888</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="User">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="*" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="「新增」享元模式相关代码" />
+    <MESSAGE value="「修改」外观模式重命名" />
+    <MESSAGE value="「新增」组合模式相关代码" />
+    <MESSAGE value="「更新」享元模式相关代码" />
+    <MESSAGE value="「新增」模板方法模式相关代码" />
+    <MESSAGE value="「新增」策略模式相关代码" />
+    <MESSAGE value="「修改」策略模式错误代码" />
+    <MESSAGE value="「修改」策略模式代码注释" />
+    <MESSAGE value="「新增」命令模式相关代码" />
+    <MESSAGE value="「新增」责任链模式相关代码" />
+    <MESSAGE value="「新增」状态模式相关代码" />
+    <MESSAGE value="「新增」观察者模式jdk相关代码" />
+    <MESSAGE value="「新增」观察者模式案例相关代码" />
+    <MESSAGE value="「新增」迭代器模式案例相关代码" />
+    <MESSAGE value="「更新」享元模式细节注释" />
+    <option name="LAST_COMMIT_MESSAGE" value="「更新」享元模式细节注释" />
+  </component>
+  <component name="XDebuggerManager">
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="com.tyut.design.E18_iterator.StudentAggregateImpl" memberName="studentList" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+</project>

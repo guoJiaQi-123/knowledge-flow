@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7336cd75-14b2-4965-810d-152f2e59ea3e" name="更改" comment="io模式" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="customMavenHome" value="D:/Program Files/Lenovo/apache-maven-3.8.3" />
+        <option name="localRepository" value="E:\repository" />
+        <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
+        <option name="userSettingsFile" value="D:\Program Files\Lenovo\apache-maven-3.8.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2nsq2Uhh5rfZIjDP1u6F73Q37wS" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="compactDirectories" value="true" />
+    <option name="openDirectoriesWithSingleClick" value="true" />
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showModules" value="false" />
+    <option name="showScratchesAndConsoles" value="false" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,
+    &quot;应用程序.ClientChat (1).executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.ClientChat (2).executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.ClientChat.executor&quot;: &quot;Run&quot;,
+    &quot;应用程序.ServerChat.executor&quot;: &quot;Run&quot;
+  }
+}</component>
+  <component name="RunManager" selected="应用程序.ClientChat (2)">
+    <configuration name="ClientChat (1)" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.tyut.client.ClientChat" />
+      <module name="bio_instant_messaging" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tyut.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClientChat (2)" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.tyut.client.ClientChat" />
+      <module name="bio_instant_messaging" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tyut.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClientChat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tyut.client.ClientChat" />
+      <module name="bio_instant_messaging" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tyut.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServerChat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tyut.server.ServerChat" />
+      <module name="bio_instant_messaging" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tyut.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="应用程序.ClientChat (1)" />
+      <item itemvalue="应用程序.ClientChat (2)" />
+      <item itemvalue="应用程序.ClientChat" />
+      <item itemvalue="应用程序.ServerChat" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="应用程序.ClientChat" />
+        <item itemvalue="应用程序.ServerChat" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="7336cd75-14b2-4965-810d-152f2e59ea3e" name="更改" comment="" />
+      <created>1699928824701</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1699928824701</updated>
+      <workItem from="1729771927405" duration="1435000" />
+      <workItem from="1729783953838" duration="232000" />
+    </task>
+    <task id="LOCAL-00001" summary="io模式">
+      <option name="closed" value="true" />
+      <created>1729783977783</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1729783977783</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="io模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="io模式" />
+  </component>
+</project>
