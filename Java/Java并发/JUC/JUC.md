@@ -10471,7 +10471,7 @@ Tomcat 在哪里用到了线程池呢
 ```mermaid
 graph LR
 
-subgraph Connector->NIO EndPoint
+subgraph Connector-->NIO EndPoint
 t1(LimitLatch)
 t2(Acceptor)
 t3(SocketChannel 1)
