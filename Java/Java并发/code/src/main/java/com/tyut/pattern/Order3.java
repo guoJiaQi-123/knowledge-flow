@@ -16,9 +16,7 @@ public class Order3 {
     static final ReentrantLock lock = new ReentrantLock();
     static final Condition condition = lock.newCondition();
     static boolean t2IsRun = false;
-
     public static void main(String[] args) {
-
         Thread t1 = new Thread(() -> {
             try {
                 lock.lock(); // 加锁
