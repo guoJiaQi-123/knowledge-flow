@@ -75,7 +75,7 @@ class Pool {
 }
 
 @SuppressWarnings("all")
-class MockConnection implements Connection {
+public class MockConnection implements Connection {
     private String name;
 
     public MockConnection(String name) {
