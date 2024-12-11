@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15002343-b37a-49c3-8ed1-f995671f7c0b" name="更改" comment="「更新」享元模式细节注释">
-      <change beforePath="$PROJECT_DIR$/../../../Java/Java并发/code/src/main/java/com/tyut/test/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/Java并发/code/src/main/java/com/tyut/test/Test1.java" afterDir="false" />
-    </list>
+    <list default="true" id="15002343-b37a-49c3-8ed1-f995671f7c0b" name="更改" comment="「新增」白箱备忘录模式" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,49 +53,42 @@
     <option name="showModules" value="false" />
     <option name="showScratchesAndConsoles" value="false" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,
-    &quot;应用程序.Main.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.com.tyut.design.E11flyweight.Main.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.com.tyut.design.E13_strategy.Main.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.com.tyut.design.E14_command.Main.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.com.tyut.design.E15_responsibilityChain.Main.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.com.tyut.design.E17_observation.jdk.Main.executor&quot;: &quot;Run&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "模块",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true",
+    "应用程序.Main.executor": "Run",
+    "应用程序.com.tyut.design.E11flyweight.Main.executor": "Run",
+    "应用程序.com.tyut.design.E13_strategy.Main.executor": "Run",
+    "应用程序.com.tyut.design.E14_command.Main.executor": "Run",
+    "应用程序.com.tyut.design.E15_responsibilityChain.Main.executor": "Run",
+    "应用程序.com.tyut.design.E17_observation.jdk.Main.executor": "Run",
+    "应用程序.com.tyut.design.E19_memento.write_memento.Main.executor": "Run"
   }
-}</component>
-  <component name="RunManager" selected="应用程序.Main">
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.tyut.design.E19_memento.black_memento" />
+    </key>
+  </component>
+  <component name="RunManager" selected="应用程序.com.tyut.design.E19_memento.write_memento.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.tyut.design.E18_iterator.Main" />
       <module name="designmode" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.tyut.design.E18_iterator.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="com.tyut.design.E13_strategy.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tyut.design.E13_strategy.Main" />
-      <module name="designmode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.tyut.design.E13_strategy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,13 +135,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="com.tyut.design.E19_memento.write_memento.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tyut.design.E19_memento.write_memento.Main" />
+      <module name="designmode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tyut.design.E19_memento.write_memento.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.com.tyut.design.E19_memento.write_memento.Main" />
         <item itemvalue="应用程序.Main" />
         <item itemvalue="应用程序.com.tyut.design.E17_observation.jdk.Main" />
         <item itemvalue="应用程序.com.tyut.design.E15_responsibilityChain.Main" />
         <item itemvalue="应用程序.com.tyut.design.E14_command.Main" />
-        <item itemvalue="应用程序.com.tyut.design.E13_strategy.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -170,6 +174,7 @@
       <workItem from="1731226646136" duration="2854000" />
       <workItem from="1731419917942" duration="1533000" />
       <workItem from="1731421769898" duration="119000" />
+      <workItem from="1732365900189" duration="3127000" />
     </task>
     <task id="LOCAL-00001" summary="「新增」享元模式相关代码">
       <option name="closed" value="true" />
@@ -291,7 +296,23 @@
       <option name="project" value="LOCAL" />
       <updated>1731421881888</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="「新增」黑箱备忘录模式">
+      <option name="closed" value="true" />
+      <created>1732369642226</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1732369642226</updated>
+    </task>
+    <task id="LOCAL-00017" summary="「新增」白箱备忘录模式">
+      <option name="closed" value="true" />
+      <created>1732369667894</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1732369667894</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -345,7 +366,9 @@
     <MESSAGE value="「新增」观察者模式案例相关代码" />
     <MESSAGE value="「新增」迭代器模式案例相关代码" />
     <MESSAGE value="「更新」享元模式细节注释" />
-    <option name="LAST_COMMIT_MESSAGE" value="「更新」享元模式细节注释" />
+    <MESSAGE value="「新增」黑箱备忘录模式" />
+    <MESSAGE value="「新增」白箱备忘录模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="「新增」白箱备忘录模式" />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>
