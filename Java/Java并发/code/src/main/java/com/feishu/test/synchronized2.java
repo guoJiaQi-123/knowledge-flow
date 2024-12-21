@@ -3,6 +3,8 @@ package com.feishu.test;
 import lombok.Getter;
 import lombok.extern.slf4j.Slf4j;
 
+import java.util.Hashtable;
+import java.util.concurrent.ConcurrentHashMap;
 import java.util.stream.IntStream;
 
 @Slf4j(topic = "c.synchronized2")
@@ -53,4 +55,5 @@ public class synchronized2 {
         }
 
     }
+
 }
