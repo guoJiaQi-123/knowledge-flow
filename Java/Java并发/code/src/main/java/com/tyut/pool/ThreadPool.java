@@ -1,6 +1,5 @@
 package com.tyut.pool;
 
-import javafx.concurrent.Worker;
 
 import java.util.HashSet;
 import java.util.concurrent.TimeUnit;
